@@ -17,4 +17,8 @@ class Connection implements ConnectionInterface {
     public function close() {
         $this->last[__FUNCTION__] = true;
     }
+
+    public function getConnection() {
+        return $this->last;
+    }
 }
