@@ -25,7 +25,7 @@ interface ConnectionInterface {
     function close();
     
      /**
-     * get the connection
+     * Get the connection
      */
-    public getConnection();
+    function getConnection();
 }
