@@ -19,7 +19,7 @@ abstract class AbstractConnectionDecorator implements ConnectionInterface {
     /**
      * @return ConnectionInterface
      */
-    protected function getConnection() {
+    public function getConnection() {
         return $this->wrappedConn;
     }
 
